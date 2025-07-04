@@ -1,0 +1,64 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LOL</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+
+<style>
+    .envelope {
+        width: 200vh;
+        height: 250px;
+        background: url('img/card.png') no-repeat center center;
+        background-size: cover;
+        cursor: pointer;
+        margin: 100px auto;
+        transition: transform 0.3s ease;
+    }
+
+    .envelope:hover {
+        transform: scale(1.2);
+    }
+
+    .modal-content{
+        background-color:#e775b8 ;
+    }
+</style>
+
+<body>
+
+    <!-- Envelope Card -->
+    <div class="envelope" data-bs-toggle="modal" data-bs-target="#Letter"></div>
+
+    <div class="modal" id="Letter" aria-hidden="false">
+
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content text-light">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loveLetterLabel">To: My magandang Baby</h5>
+                    <button type="button" class="btn-close bg-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <p>Hi, Tol, hehe I just wanted to say <strong>I love you!</strong> — for every part of yours.</p>
+                    <p>I also wanted to remind you how much you mean to me.</p>
+                    <p>Lastly, I want to thank you for staying and for the love hihi. Kahit di ko din ma-gets kung anong
+                        nagustuhan mo sakin e hahahaha, pero sana mag-stay ka until we are both ready to commit.</p>
+                    <p>Got it, Baby Ganda? Lol</p>
+                    <p><strong>— well</strong></p>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
